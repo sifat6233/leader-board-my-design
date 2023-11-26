@@ -46,3 +46,48 @@ hr{
 }
 
 /* top players end --------- */
+
+
+
+/* top blogs section  start */
+.top-blogs .section-title{
+  margin-top: 30px;
+}
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.blog-img img{
+  width: 200px;
+  height: 127px;
+}
+.blog{
+  display: flex;
+  gap: 20px;
+}
+.blog-info h2{
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-top: 0;
+}
+.blog-info h4{
+  color: #9F9F9F;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.blog-info span{
+  color: #562EFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+/* top blogs section  end */
